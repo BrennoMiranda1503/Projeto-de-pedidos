@@ -40,7 +40,7 @@ public class Principal {
 		Order order = new Order(new Date(), status, client);
 		
 		System.out.print("How many items to this order? ");
-		int n = sc.nextInt();
+		int N = sc.nextInt();
 		
 		for (int i = 1; i <= n; i++) {
 			
